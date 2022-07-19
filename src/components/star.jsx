@@ -11,6 +11,7 @@ export default function Stars() {
   const stars = [Star, Star, Star, Star, Star];
   return (
     <div className="star">
+      <h1>hello</h1>
       {stars.map((item, index) => (
         <button onClick={() => handleClick(index)}>
           <img
